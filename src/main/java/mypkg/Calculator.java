@@ -18,6 +18,10 @@ public class Calculator {
 		return a/b;
 	}
 	
+	public int mod(int a, int b) {
+		return a%b;
+	}
+	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Calculator ob = new Calculator();
@@ -25,6 +29,7 @@ public class Calculator {
 		System.out.println("Sub is "+ob.sub(20, 10));
 		System.out.println("Mul is "+ob.mul(20, 10));
 		System.out.println("Div is "+ob.div(20, 10));
+		System.out.println("Modulus is added "+ob.mod(20, 10));
 		System.out.println("I am eating mangoes!");
         
 	}
