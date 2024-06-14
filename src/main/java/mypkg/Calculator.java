@@ -25,6 +25,7 @@ public class Calculator {
 		System.out.println("Sub is "+ob.sub(20, 10));
 		System.out.println("Mul is "+ob.mul(20, 10));
 		System.out.println("Div is "+ob.div(20, 10));
+		System.out.println("I am eating mangoes!");
         
 	}
 
