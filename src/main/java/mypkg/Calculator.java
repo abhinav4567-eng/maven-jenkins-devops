@@ -22,6 +22,9 @@ public class Calculator {
 		return a%b;
 	}
 	
+	public void display() {
+		System.out.println("Welcome DevOps");
+	}
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Calculator ob = new Calculator();
