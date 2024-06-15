@@ -25,6 +25,12 @@ public class Calculator {
 	public void display() {
 		System.out.println("Welcome DevOps! jenkins");
 	}
+	
+	public void display1() {
+		System.out.println("Welcome DevOps! GitHub Actions");
+	}
+	
+	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Calculator ob = new Calculator();
