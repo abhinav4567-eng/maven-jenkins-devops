@@ -37,7 +37,7 @@ public class Calculator {
 	
 	
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 		Calculator ob = new Calculator();
 		logger.info("Sum is "+ob.sum(20, 10));
 		logger.info("Sub is "+ob.sub(20, 10));
