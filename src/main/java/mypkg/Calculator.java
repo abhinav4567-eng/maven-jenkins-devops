@@ -1,6 +1,11 @@
 package mypkg;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 
 public class Calculator {
+	
+	private static final Logger logger = LoggerFactory.getLogger(Calculator.class);
 	
 	public int sum(int a, int b) {
 		return a+b;
@@ -34,12 +39,12 @@ public class Calculator {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Calculator ob = new Calculator();
-		System.out.println("Sum is "+ob.sum(20, 10));
-		System.out.println("Sub is "+ob.sub(20, 10));
-		System.out.println("Mul is "+ob.mul(20, 10));
-		System.out.println("Div is "+ob.div(20, 10));
-		System.out.println("Modulus is added "+ob.mod(20, 10));
-		System.out.println("I am eating mangoes!");
+		logger.info("Sum is "+ob.sum(20, 10));
+		logger.info("Sub is "+ob.sub(20, 10));
+		logger.info("Mul is "+ob.mul(20, 10));
+		logger.info("Div is "+ob.div(20, 10));
+		logger.info("Modulus is added "+ob.mod(20, 10));
+		logger.info("I am eating mangoes!");
         
 	}
 
