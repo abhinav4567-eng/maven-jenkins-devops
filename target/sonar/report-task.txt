@@ -1,0 +1,6 @@
+projectKey=com.devops.au:devops-jenkins
+serverUrl=http://localhost:9000
+serverVersion=9.9.5.90363
+dashboardUrl=http://localhost:9000/dashboard?id=com.devops.au%3Adevops-jenkins
+ceTaskId=AZAchb_EOkDN5t0ckvuj
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AZAchb_EOkDN5t0ckvuj
